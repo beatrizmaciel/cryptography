@@ -34,3 +34,5 @@ msg = input("Insert a text: ")
 
 encrypted = encrypt(msg, key)
 print(encrypted)
+decrypted = decrypt(encrypted, key)
+print(decrypted)
